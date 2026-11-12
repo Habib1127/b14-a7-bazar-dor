@@ -2,6 +2,8 @@
 
 # 🛒 বাজার দর — BazarDor
 
+Live Link : https://b14-a7-bazar-dor-rho.vercel.app
+
 **প্রয়োজনীয় পণ্যের দাম এক নজরে।**
 
 Daily Bangladeshi market prices for rice, lentils, oil, vegetables, fish, meat, eggs, dairy and spices, with price changes, market-wise comparison and a live price ticker.
@@ -79,9 +81,9 @@ Data comes from the Programming Hero BazarDor API (`/products`, `/products/:id`,
 
 ## Project Structure
 
-```
+
 app/          routes (home, category, product, signin, signup, profile)
 components/   navbar, ticker, cards, forms, skeletons
 lib/          api, normalizer, formatters, BetterAuth setup
 middleware.ts protects /product and /profile
-```
+
